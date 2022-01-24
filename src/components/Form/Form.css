@@ -1,0 +1,29 @@
+.form-controls {
+	margin: 40px auto 40px auto; 
+    /* top bottom margin */
+}
+
+.form-control {
+	margin:15px;
+}
+
+.form-controls input {
+	background-color: white;
+	border: 1px solid rgb(223, 217, 217);
+	width: 100%;
+    margin-bottom: 8px;
+    margin-top: 4px;
+    padding: 8px;
+}
+
+.form-controls label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+.form-controls button {
+	background-color: purple;
+    color: white;
+    padding: 8px;
+}
