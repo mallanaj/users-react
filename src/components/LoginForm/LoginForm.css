@@ -1,0 +1,45 @@
+.form-controls {
+	margin: 40px auto 40px auto;
+	/* top bottom margin */
+}
+
+.form-control {
+	margin: 15px;
+}
+
+.form-controls input {
+	background-color: white;
+	border: 1px solid rgb(223, 217, 217);
+	width: 100%;
+	/* margin-bottom: 8px; */
+	margin-top: 4px;
+	padding: 8px;
+}
+
+.form-controls label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+.form-controls button {
+	background-color: purple;
+	color: white;
+	padding: 8px;
+	/* margin: auto 50% 10px 50%; */
+}
+
+p {
+	color: red;
+	margin-top: 0;
+}
+
+/*  error styling */
+.form-controls.invalid input {
+	background-color: rgb(243, 183, 183);
+	border: 1px solid red;
+	width: 100%;
+	margin-top: 4px;
+	padding: 8px;
+}
+
